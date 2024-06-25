@@ -16,3 +16,7 @@ interface Todo2 {
   readonly description: string
   completed?: boolean
 }
+
+type X = GetReadonlyKeys<Todo2>
+
+type Y = Pick<Todo2, "title">

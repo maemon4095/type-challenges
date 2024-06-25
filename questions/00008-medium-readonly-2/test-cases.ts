@@ -27,3 +27,5 @@ interface Expected {
   readonly description?: string
   completed: boolean
 }
+
+type X = MyReadonly2<Todo2>

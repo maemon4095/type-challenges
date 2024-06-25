@@ -22,6 +22,7 @@ SimpleVue({
   },
   methods: {
     getRandom() {
+      
       return Math.random()
     },
     hi() {
